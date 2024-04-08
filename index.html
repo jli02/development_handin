@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Development</title>
+    <!-- import CSS styles -->
+
+    <link rel="stylesheet" href="https://use.typekit.net/roy3vpu.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="title-header">
+      <h1 class="title">Development Project</h1>
+      <br />
+      <h2 class="section-text">
+        competitive analysis and an interface for creating "to-pack" lists :)
+      </h2>
+    </div>
+    <div id="main">
+      <div class="section">
+        <h1 class="section-header">I. Background</h1>
+        <p class="section-text">
+          Many websites have a favoriting option and aggregators. But not all of
+          them implement them the same way. I did a competitive analysis to look
+          at the design choices of three sites and to inform my the
+          implementation of my own app for creating a list of items to pack.
+        </p>
+      </div>
+      <div class="section">
+        <h1 class="section-header">II. Competitive Analysis</h1>
+        <p class="section-text">
+          I looked at three clothing sites - ThredUp, Uniqlo, and Princess Polly
+          - to see how they implemented their favoriting features. Here's a
+          chart of some features across the sites.
+        </p>
+        <img
+          class="large-image"
+          alt="comparison chart of websites"
+          src="chart.png"
+        />
+        <p class="section-text"><b>Links to Sites:</b></p>
+        <a
+          href="https://www.thredup.com/?referral_code=adwords_ThredUp&utm_medium=cpc&utm_source=google&utm_campaign=1612558699_59913515694_664231184115_thredup_e_c__9002242_kwd-26936496337_g_&iv_=__iv_p_1_a_1612558699_g_59913515694_c_664231184115_w_kwd-26936496337_n_g_d_c_v__l__t__r__x__y__f__o__z__i__j__s__e__h_9002242_ii__vi__&gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQjwiMmwBhDmARIsABeQ7xRqaCeF4FUA3v07FGCg0vvtoTJfaP3lURfI6kF5rU5dyHj_OczXtkUaAhKrEALw_wcB"
+          >ThredUp</a
+        >
+        <br />
+        <a href="https://www.uniqlo.com/us/en/">Uniqlo</a>
+        <br />
+        <a
+          href="https://us.princesspolly.com/?utm_source=cpc&utm_medium=google&utm_term=&adid=&matchtype=&addisttype=x&tw_source=google&tw_adid=&tw_campaign=20787176152&gad_source=1&gclid=Cj0KCQjwiMmwBhDmARIsABeQ7xQXT9Rp8BPGpalbk8kgAG8RXYXOw_syHvI-dfGs_WlrARHU_zVRshsaAqlAEALw_wcB"
+          >Princess Polly</a
+        >
+
+        <p class="section-text">
+          I like how the Uniqlo and Princess Polly sites show how many items are
+          favorited, designated by a number that is in the corner with a heart.
+          It reminds the user how many items they may want to take a second look
+          at, and it may encourage the user to revisit their favorites and buy
+          them. Another feature I liked was being able to see which items have
+          already been added. ThredUp and Princess Polly have a heart on each
+          item, which is filled when it is favorited. For Uniqlo, each item also
+          has a heart, but this heart is not filled in if the item is favorited,
+          which may confuse the user. From a design perspective, the use of
+          color makes it more clear which items have already been added and
+          overall makes the favoriting option less confusing.
+        </p>
+        <p class="section-text">
+          One feature that I did not think was effective was requiring the user
+          to make an account in order to add favorites. ThredUp and Uniqlo
+          wanted me to make an account in order to favorite items, and though
+          this may be beneficial for getting more people to make accounts, I
+          felt like this feature made me want to leave the site instead because
+          it was just another additional step I had to take towards my intended
+          goal.
+        </p>
+        <p class="section-text">
+          In my own implementaion, I want the user to be able to see the total
+          number of items favorited since I found this feature effective. For my
+          app in particular, it would be helpful to see how many items a person
+          still has left to pack. I also would want the option to clear the
+          aggregator. For all three of the sites, I had to remove items
+          individually if I no longer wanted them in my favorites, which could
+          get tedious if I favorited a lot of items. Thus, it would be more
+          convenient to have the option of clearing a list completely. These are
+          features that I implement in my own app, which you can read about
+          below!
+        </p>
+      </div>
+      <div class="section">
+        <h1 class="section-header">III. Packing Interface</h1>
+        <p class="section-text">
+          As someone who always makes lists for everything, I thought it would
+          be useful to have a tool for planning "to-pack" lists. The app allows
+          the user to filter by types of items, such as clothing and toiletries,
+          and by degree of importance. There is also a sorting feature to sort
+          by alphabetical order to make it easier to find items to add. On the
+          right side of the app, there is an aggregator that totals up number of
+          items added, which could gives the user an idea of how much they still
+          have to pack. Users can also remove items from the aggregator once
+          they have packed the corresponding items.
+        </p>
+        <img class="large-image" alt="image of packing app" src="app.png" />
+      </div>
+      <div class="section">
+        <h1 class="section-header">IV. Takeaways</h1>
+        <p class="section-text">
+          I wish I implemented the remove item feature through an "X" instead of
+          a button, which takes up more space and looks clunky. I was a little
+          low on time, but I would definitely revisit this project and see how I
+          can continue to improve my design.
+        </p>
+        <p class="section-text">
+          It was helpful to take inspiration from the different sites, and
+          competitive analysis was a very effective tool in comparing their
+          differences. This was good practice in seeing what design choices were
+          effective and to take inspiration for my own implementations!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

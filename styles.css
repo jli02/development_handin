@@ -1,0 +1,63 @@
+body {
+  display: flex;
+}
+
+#title-header {
+  width: 20vw;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+}
+
+#main {
+  width: 80vw;
+  padding: 100px;
+  margin-left: 20vw;
+}
+
+.title {
+  font-family: "mencken-std-head", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  color: #9c9fa5;
+}
+
+.section-header {
+  font-family: "mencken-std-head", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  color: #9c9fa5;
+}
+
+.section-subheader {
+  font-family: "mencken-std-head", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+  color: #9c9fa5;
+}
+
+.section-text {
+  font-family: "neuzeit-grotesk", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: #505050;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.image {
+  display: block;
+}
+
+.large-image {
+  display: block;
+  width: 500px;
+  height: auto;
+}
